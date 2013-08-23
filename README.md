@@ -3,6 +3,7 @@ NetmeraPHP
 
 In order to be able to use Netmera Services, first you need to initialize Netmera with your Netmera apikey.
 
+	include 'sdk/Netmera.php';
 	$apikey = "{YOUR_NETMERA_APIKEY}";
     Netmera::init($apikey);
 	
